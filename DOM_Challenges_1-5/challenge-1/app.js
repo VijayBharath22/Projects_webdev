@@ -5,8 +5,8 @@ let pagestatus = document.getElementById("status");
 btn.addEventListener("click", function () {
   if (document.body.classList.contains("dark-mode")) {
     document.body.classList.remove("dark-mode");
-    pagestatus.innerHTML = "status: Off";
-    btn.innerHTML = "Turn On";
+    pagestatus.innerText = "status: Off";
+    btn.innerText = "Turn On";
     bulb.classList.add("off");
   } else {
     btn.innerHTML = "Turn Off";
