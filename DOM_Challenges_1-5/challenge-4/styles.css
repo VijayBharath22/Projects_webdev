@@ -3,7 +3,7 @@ body {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f7f9fc;
+  background-color: #000000;
 }
 
 h1 {
@@ -69,7 +69,7 @@ h1 {
 .task-text {
   flex: 1;
   margin-left: 10px;
-}
+}   
 
 .complete-checkbox {
   width: 18px;
@@ -96,7 +96,7 @@ h1 {
 
 .delete-button:hover {
   opacity: 1;
-}
+}                                           
 
 .empty-list {
   text-align: center;
