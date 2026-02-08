@@ -14,6 +14,9 @@ body {
   padding: 20px;
   box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
 }
+.panel.active {
+  right: 0px;
+}
 
 .panel.active {
   right: 0;
