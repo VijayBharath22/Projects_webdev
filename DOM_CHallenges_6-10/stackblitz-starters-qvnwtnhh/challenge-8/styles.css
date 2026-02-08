@@ -3,6 +3,8 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  background-color: black;
+  color: white;
 }
 
 .products {
@@ -37,6 +39,13 @@ body {
   align-items: center;
   padding: 10px 0;
   border-bottom: 1px solid #eee;
+}
+.cart-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  gap : 10px
 }
 
 .quantity-controls {
